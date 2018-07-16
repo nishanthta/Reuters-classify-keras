@@ -51,3 +51,5 @@ plt.xlabel('epochs')
 plt.ylabel('accuracy')
 plt.legend(loc = 2)
 plt.savefig('accuracy.jpg')
+
+test_acc = model.evaluate(vec_test_data, oh_test_labels)
